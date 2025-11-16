@@ -1,0 +1,62 @@
+Excellent, Mahesh 👍 — let’s lay out a **step‑by‑step roadmap** for your cymatics-inspired mobile app so you can move from prototype to MVP efficiently.  
+
+---
+
+## 📅 Development Roadmap
+
+### **Week 1–2: Foundation**
+- **Set up project structure** (Android in Kotlin, iOS in Swift, or Flutter for cross‑platform).  
+- Implement **basic audio recording** (using `MediaRecorder` / `AVAudioRecorder`).  
+- Create a simple **UI with record/play buttons**.  
+
+---
+
+### **Week 3–4: Signal Processing**
+- Integrate **FFT library** (TarsosDSP for Android, Accelerate/vDSP for iOS).  
+- Extract **frequency spectrum + amplitude data** in real time.  
+- Display a **basic waveform visualization** (bars or line graph).  
+
+---
+
+### **Week 5–6: Visualization Engine**
+- Build **geometric mapping logic**:  
+  - Bass → circles/ripples  
+  - Midrange → polygons/lattice  
+  - Treble → fractals/mandalas  
+- Use **OpenGL ES / Metal / Flutter Canvas** for rendering.  
+- Add **color/intensity mapping** based on amplitude.  
+
+---
+
+### **Week 7–8: UI & User Experience**
+- Add **visualization mode selector** (e.g., “Sand Plate”, “Water Ripple”, “Fractal”).  
+- Implement **playback with visuals synced to audio**.  
+- Optimize performance for smooth rendering.  
+
+---
+
+### **Week 9–10: Export & Sharing**
+- Enable **saving visuals as PNG/JPEG**.  
+- Add **short MP4 loop export** for social sharing.  
+- Integrate **share options** (WhatsApp, Instagram, etc.).  
+
+---
+
+### **Week 11–12: Polish & Extras**
+- Add **themes and customization** (color palettes, symmetry options).  
+- Optimize for **battery and memory usage**.  
+- Prepare for **beta testing** with a small group of users.  
+
+---
+
+## 🎯 MVP Deliverables
+- Record voice/song → FFT → real‑time geometric visualization.  
+- 2–3 visualization styles.  
+- Export as image/video.  
+- Simple, clean UI.  
+
+---
+
+👉 This roadmap keeps you lean and modular, so you can expand later (e.g., live streaming visuals, AR overlays, or syncing with music apps).  
+
+Would you like me to **draft a sample Flutter code snippet** showing how to capture audio and run FFT as the first building block?
